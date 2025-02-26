@@ -34,3 +34,13 @@ body{
 #container h1{
     font-size: 30px;
 }
+
+footer{
+    background: #33A;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-height: 90px;
+    box-shadow: 0px -2px 20px 0px rgba(0,0,0,0.5);
+}
