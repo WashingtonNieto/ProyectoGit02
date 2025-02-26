@@ -34,3 +34,28 @@ body{
 #container h1{
     font-size: 30px;
 }
+
+/* Navegacion */
+.nav-bg{
+    background-color: rgb(74, 74, 245);
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navegacion-principal a:hover{
+    background-color: #33A;
+    height: 100%;
+}
